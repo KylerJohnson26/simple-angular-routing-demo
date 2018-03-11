@@ -3,6 +3,7 @@ import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/R
 import { Observable } from 'rxjs/Observable';
 import { ServersService } from '../servers.service';
 
+// Todo: move this into its own file
 interface Server {
   id: number;
   name: string;
